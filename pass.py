@@ -57,7 +57,7 @@ for i in range(0,upperLength):
         passlets.append(str(reduceToOneDigit(passnums[i])))
 
 
-print (passnums)
-print (passlets)
+#print (passnums)
+#print (passlets)
 password = ''.join(passlets)
 print (password)
