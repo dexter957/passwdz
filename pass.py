@@ -20,7 +20,6 @@ def reduceToOneDigit(num):
     if(len(str(num))) < 2:
         return num
     digits = [int(digit) for digit in str(num)]
-    print (digits)
     finNum = sum(digits)
     finNum = reduceToOneDigit(finNum)
     return finNum
